@@ -10,7 +10,7 @@ export const NavigationBar = () => (
       <NavBarItemsContainer>
         <NavBarAppIconRowForIcon to="/">
           <NavBarAppIconContainer>
-            <img src={diversifixLogoSrc} alt="Diversifix Logo" width="277" />
+            <img src={diversifixLogoSrc} alt="Diversifix Logo" width="350" />
           </NavBarAppIconContainer>
           <NavBarAppIconSmallText>
             EINFACH DIVERSITÄTSSENSIBEL

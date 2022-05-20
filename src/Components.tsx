@@ -4,11 +4,14 @@ import { NavigationBar } from "./NavigationBar";
 import { Colors } from "./styles/Colors";
 import { Fonts } from "./styles/Fonts";
 
-export const Page: FC<{ children: ReactNode }> = ({ children }) => (
+export const Page: FC<{ children: ReactNode; fillHeight?: boolean }> = ({
+  children,
+  fillHeight = false,
+}) => (
   <StandaloneAppContainer>
     <NavigationBar />
 
-    <div>
+    <div style={fillHeight ? { flex: "1", overflow: "auto" } : {}}>
       <CenteredContainer>
         <MainAreaContainer style={{ marginBottom: "30px" }}>
           {children}
