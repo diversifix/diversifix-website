@@ -1,4 +1,4 @@
-import { Page } from "../StandaloneApp";
+import { Page } from "../Components";
 
 export const Main = () => (
   <Page>

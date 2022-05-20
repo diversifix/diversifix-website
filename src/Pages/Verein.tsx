@@ -1,10 +1,6 @@
-import {
-  InputAreaContainer,
-  ResultsAreaContainer,
-  Page,
-} from "../StandaloneApp";
+import { InputAreaContainer, ResultsAreaContainer, Page } from "../Components";
 import styled from "styled-components";
-import { WelcomeMessageBody, WelcomeMessageContainer } from "../WelcomeMessage";
+import { SideItemBody, SideItemContainer } from "../Components";
 
 export const Verein = () => (
   <Page>
@@ -163,8 +159,8 @@ export const Verein = () => (
     </InputAreaContainer>
 
     <ResultsAreaContainer>
-      <WelcomeMessageContainer>
-        <WelcomeMessageBody>
+      <SideItemContainer>
+        <SideItemBody>
           <a
             href="https://github.com/diversifix/verein/blob/main/satzung.md"
             target="_blank"
@@ -172,8 +168,8 @@ export const Verein = () => (
           >
             Unsere Satzung
           </a>
-        </WelcomeMessageBody>
-      </WelcomeMessageContainer>
+        </SideItemBody>
+      </SideItemContainer>
     </ResultsAreaContainer>
   </Page>
 );

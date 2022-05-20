@@ -1,15 +1,17 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { Fonts } from "./styles/Fonts";
-import { CenteredContainer } from "./StandaloneApp";
-import diversifixLogoSrc from "./icons/diversifix-logo.png";
+import { CenteredContainer } from "./Components";
+import diversifixLogoSrc from "./styles/diversifix-logo.png";
 
 export const NavigationBar = () => (
   <NavBarContainer>
     <CenteredContainer>
       <NavBarItemsContainer>
         <NavBarAppIconRowForIcon to="/">
-          <NavBarAppIcon />
+          <NavBarAppIconContainer>
+            <img src={diversifixLogoSrc} alt="Diversifix Logo" width="277" />
+          </NavBarAppIconContainer>
           <NavBarAppIconSmallText>
             EINFACH DIVERSITÄTSSENSIBEL
           </NavBarAppIconSmallText>
@@ -81,12 +83,6 @@ const NavBarAppIconSmallText = styled.div`
   letter-spacing: 0px;
   font-style: italic;
 `;
-
-const NavBarAppIcon = () => (
-  <NavBarAppIconContainer>
-    <img src={diversifixLogoSrc} alt="Diversifix Logo" width="" height="" />
-  </NavBarAppIconContainer>
-);
 
 const NavBarAppIconContainer = styled.div`
   display: flex;

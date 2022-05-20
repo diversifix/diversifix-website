@@ -1,6 +1,7 @@
-import { InputAreaContainer } from "../StandaloneApp";
+import { InputAreaContainer } from "../Components";
 import { TextContainer } from "./Verein";
-import { Page } from "../StandaloneApp";
+import { Page } from "../Components";
+
 export const Mitmachen = () => (
   <Page>
     <InputAreaContainer>

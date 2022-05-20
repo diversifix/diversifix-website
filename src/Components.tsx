@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import { ReactNode, FC } from "react";
 import { NavigationBar } from "./NavigationBar";
-import { ImpressumAndDatenschutzLinks } from "./ImpressumAndDatenschutzLinks";
+import { Colors } from "./styles/Colors";
+import { Fonts } from "./styles/Fonts";
 
 export const Page: FC<{ children: ReactNode }> = ({ children }) => (
   <StandaloneAppContainer>
@@ -54,24 +55,54 @@ export const ResultsAreaContainer = styled.div`
   min-height: 200px;
 `;
 
-function computeScrollbarWidth() {
-  const oldOverflow = document.body.style.overflow;
-  document.body.style.overflow = "hidden";
-  var width = document.body.clientWidth;
-  document.body.style.overflow = "scroll";
-  width -= document.body.clientWidth;
-  if (!width) width = document.body.offsetWidth - document.body.clientWidth;
-  document.body.style.overflow = oldOverflow;
-  return width;
-}
-
-export const scrollbarWidth = computeScrollbarWidth();
-
 const centeredSidePaddingPx = 35;
 export const CenteredContainer = styled.div`
   max-width: 1024px;
   margin: 0 auto;
-  padding: 0 ${centeredSidePaddingPx - scrollbarWidth}px 0
-    ${centeredSidePaddingPx}px;
+  padding: 0 ${centeredSidePaddingPx}px 0 ${centeredSidePaddingPx}px;
   height: 100%;
+`;
+
+export const ImpressumAndDatenschutzLinks: FC<{ isAddin?: boolean }> = ({
+  isAddin,
+}) => (
+  <IDLinksRow>
+    <a href="./impressum-datenschutz.html">Impressum &amp; Datenschutz</a>
+    <IDLinkDivider />
+
+    <a href="./lizenzen.html">Lizenzen</a>
+  </IDLinksRow>
+);
+
+const IDLinksRow = styled.div`
+  margin: 0 0 10px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+`;
+
+const IDLinkDivider = styled.div`
+  border-left: 1px solid #aaa;
+`;
+
+export const SideItemContainer = styled.div`
+  font-family: ${Fonts.bam.family};
+  font-style: italic;
+  background: white;
+  box-shadow: 0px 6px 12px ${Colors.dropShadow};
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  max-width: 330px;
+`;
+
+export const SideItemBody = styled.p`
+  margin: 15px 13px;
+  font-weight: ${Fonts.bam.weights.normal};
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.08px;
+  color: ${Colors.darkBlueText};
+  display: block;
 `;
