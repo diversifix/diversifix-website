@@ -9,7 +9,7 @@ export const Mitmachen = () => (
         <h1>Mitmachen & Tool verbessern</h1>
         <div>
           <iframe
-            title="Airtable Datenbank: Eintragsformular"
+            title="Eintragsformular für die Mitmach-Datenbank"
             src="https://airtable.com/embed/shrmGk7w3QsM3FsWt?backgroundColor=blue"
             width="100%"
             height="1302"
@@ -17,9 +17,9 @@ export const Mitmachen = () => (
               background: "transparent",
               border: " 1px solid #ccc",
             }}
-          ></iframe>
+          />
           <iframe
-            title="Airtable Datenbank: Ansicht"
+            title="Ansicht der Mitmach-Datenbank"
             src="https://airtable.com/embed/shrgE8O92dEbDODkF?backgroundColor=blue"
             // frameborder="0"
             // onmousewheel=""
@@ -29,11 +29,11 @@ export const Mitmachen = () => (
               background: "transparent",
               border: " 1px solid #ccc",
             }}
-          ></iframe>
+          />
         </div>
         <div>
           <iframe
-            title="Airtable Datenbank: Eintragsformular"
+            title="Eintragsformular für die Quellen-Datenbank"
             src="https://airtable.com/embed/shruApnoQO9nWODd9?backgroundColor=blue"
             // frameborder="0"
             // onmousewheel=""
@@ -41,19 +41,19 @@ export const Mitmachen = () => (
             height="950"
             style={{
               background: "transparent",
-              border: " 1px solid #ccc",
+              border: "1px solid #ccc",
             }}
-          ></iframe>
+          />
           <iframe
-            title="Airtable Datenbank: Ansicht"
+            title="Ansicht der Quellen-Datenbank"
             src="https://airtable.com/embed/shrQj7VltjyWkQPww?backgroundColor=blue"
             width="100%"
             height="300"
             style={{
               background: "transparent",
-              border: " 1px solid #ccc",
+              border: "1px solid #ccc",
             }}
-          ></iframe>
+          />
         </div>
       </TextContainer>
     </InputAreaContainer>
