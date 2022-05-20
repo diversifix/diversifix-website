@@ -66,14 +66,11 @@ export const CenteredContainer = styled.div`
   height: 100%;
 `;
 
-export const ImpressumAndDatenschutzLinks: FC<{ isAddin?: boolean }> = ({
-  isAddin,
-}) => (
+export const ImpressumAndDatenschutzLinks = () => (
   <IDLinksRow>
-    <a href="./impressum-datenschutz.html">Impressum &amp; Datenschutz</a>
-    <IDLinkDivider />
-
-    <a href="./lizenzen.html">Lizenzen</a>
+    <IDLinkContainer>
+      <a href="./impressum">Impressum, Datenschutz &amp; Lizenzen</a>
+    </IDLinkContainer>
   </IDLinksRow>
 );
 
@@ -84,8 +81,15 @@ const IDLinksRow = styled.div`
   justify-content: center;
 `;
 
-const IDLinkDivider = styled.div`
-  border-left: 1px solid #aaa;
+const IDLinkContainer = styled.a`
+  font-size: 10px;
+  color: #aaa;
+  &:link {
+    color: #aaa;
+  }
+  &:visited {
+    color: #aaa;
+  }
 `;
 
 export const SideItemContainer = styled.div`
