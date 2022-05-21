@@ -23,9 +23,9 @@ export const Impressum = () => (
 
           <h3>Vorstand</h3>
           <p>
-            Frau Sonja Möbius
+            Sonja Möbius
             <br />
-            Herr David Pomerenke
+            David Pomerenke
           </p>
 
           <h3>Sonstige Pflichtangaben</h3>
@@ -100,7 +100,7 @@ export const Impressum = () => (
               Die Textprüfung hat als allgemeine Formulierungshilfe keine
               persönlichen Daten zum Gegenstand. Die Texte im Eingabefeld werden
               für die Analyse an unsere Server bzw. Server der
-              DigitalService4Germany GmbH (siehe die dafür zutreffende
+              DigitalService4Germany GmbH (siehe die dafür zutreffende{" "}
               <a
                 href="https://inclusify.tech.4germany.org/impressum-datenschutz.html"
                 target="_blank"
@@ -126,9 +126,8 @@ export const Impressum = () => (
           <ul>
             <li>
               Die überwiegende Zahl der genderneutralen Diversitätshinweise sind
-              von
-              <a href="https://geschicktgendern.de/">geschicktgendern</a> von
-              Johanna Usinger und stehen unter der
+              von <a href="https://geschicktgendern.de/">geschicktgendern</a>{" "}
+              von Johanna Usinger und stehen unter der{" "}
               <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
                 CC-BY-NC-SA 4.0 International License
               </a>
@@ -136,21 +135,17 @@ export const Impressum = () => (
             </li>
             <li>
               Wir benutzen zur grammatischen Anpassung das morphologische
-              Wörterbuch
-              <a href="https://morphy.wolfganglezius.de/download/">
-                Morphy
-              </a>{" "}
-              von Wolfgang Lezius, dessen Inhalt unter der
+              Wörterbuch{" "}
+              <a href="https://morphy.wolfganglezius.de/download/">Morphy</a>{" "}
+              von Wolfgang Lezius, dessen Inhalt unter der{" "}
               <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
                 CC-BY-NC-SA 4.0 International License
               </a>{" "}
               steht.
             </li>
             <li>
-              Unser Quellcode mit den dazugehörigen Lizenzen ist
-              <a href="https://github.com/diversifix/diversifix">
-                auf Github
-              </a>{" "}
+              Unser Quellcode mit den dazugehörigen Lizenzen ist{" "}
+              <a href="https://github.com/diversifix/diversifix">auf Github</a>{" "}
               zu finden.
             </li>
           </ul>
