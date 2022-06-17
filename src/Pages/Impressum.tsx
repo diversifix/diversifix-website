@@ -99,21 +99,12 @@ export const Impressum = () => (
             <li>
               Die Textprüfung hat als allgemeine Formulierungshilfe keine
               persönlichen Daten zum Gegenstand. Die Texte im Eingabefeld werden
-              für die Analyse an unsere Server bzw. Server der
-              DigitalService4Germany GmbH (siehe die dafür zutreffende{" "}
-              <a
-                href="https://inclusify.tech.4germany.org/impressum-datenschutz.html"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Datenschutzerklärung
-              </a>
-              ) übermittelt und entsprechende Formulierungsvorschläge
-              übertragen. Wir weisen darauf hin, dass hier keine persönlichen
-              oder sensiblen Daten eingeben werden müssen und sollen, da es sich
-              lediglich um generelle Formulierungen handelt. Die Texte werden
-              nicht gespeichert, und es werden keine Daten im Zusammenhang mit
-              den Texten gespeichert.
+              für die Analyse an unsere Server übermittelt und entsprechende
+              Formulierungsvorschläge übertragen. Wir weisen darauf hin, dass
+              hier keine persönlichen oder sensiblen Daten eingeben werden
+              müssen und sollen, da es sich lediglich um generelle
+              Formulierungen handelt. Die Texte werden nicht gespeichert, und es
+              werden keine Daten im Zusammenhang mit den Texten gespeichert.
             </li>
             <li>
               Individuelle Einstellungen werden im lokalen Speicher im Browser

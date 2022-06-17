@@ -5,5 +5,5 @@ git clone https://github.com/diversifix/diversifix.git diversifix-app --depth 1 
 echo "SKIP_PREFLIGHT_CHECK=true" > diversifix-app/react-ui/.env && \
 cd diversifix-app/react-ui && \ 
 yarn install && \
-REACT_APP_API_BASE_URL="https://inclusify.tech.4germany.org/v2" yarn build && \
+REACT_APP_API_BASE_URL="https://api.diversifix.org/v2" yarn build && \
 cp -R build ../../public/diversifix-app
