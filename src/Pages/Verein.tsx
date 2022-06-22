@@ -161,13 +161,28 @@ export const Verein = () => (
     <ResultsAreaContainer>
       <SideItemContainer>
         <SideItemBody>
-          <a
-            href="https://github.com/diversifix/verein/blob/main/satzung.md"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Unsere Satzung
-          </a>
+          Kontakt:
+          <ul>
+            <li>
+              <a href="mailto:community@diversifix.org">
+                community@diversifix.org
+              </a>
+            </li>
+            <li>
+              <a href="mailto:feedback@diversifix.org">
+                feedback@diversifix.org
+              </a>
+            </li>
+          </ul>
+          <div>
+            <a
+              href="https://github.com/diversifix/verein/blob/main/satzung.md"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Unsere Satzung
+            </a>
+          </div>
         </SideItemBody>
       </SideItemContainer>
     </ResultsAreaContainer>
