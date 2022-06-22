@@ -18,18 +18,6 @@ export const Mitmachen = () => (
               border: " 1px solid #ccc",
             }}
           />
-          <iframe
-            title="Ansicht der Mitmach-Datenbank"
-            src="https://airtable.com/embed/shrgE8O92dEbDODkF?backgroundColor=blue"
-            // frameborder="0"
-            // onmousewheel=""
-            width="100%"
-            height="533"
-            style={{
-              background: "transparent",
-              border: " 1px solid #ccc",
-            }}
-          />
         </div>
         <div>
           <iframe
@@ -39,16 +27,6 @@ export const Mitmachen = () => (
             // onmousewheel=""
             width="100%"
             height="950"
-            style={{
-              background: "transparent",
-              border: "1px solid #ccc",
-            }}
-          />
-          <iframe
-            title="Ansicht der Quellen-Datenbank"
-            src="https://airtable.com/embed/shrQj7VltjyWkQPww?backgroundColor=blue"
-            width="100%"
-            height="300"
             style={{
               background: "transparent",
               border: "1px solid #ccc",
