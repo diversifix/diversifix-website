@@ -3,6 +3,7 @@ import { Verein } from "./Pages/Verein";
 import { Mitmachen } from "./Pages/Mitmachen";
 import { Main } from "./Pages/Main";
 import { Impressum } from "./Pages/Impressum";
+import { Support } from "./Pages/Support";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="verein" element={<Verein />}></Route>
           <Route path="mitmachen" element={<Mitmachen />}></Route>
           <Route path="impressum" element={<Impressum />}></Route>
+          <Route path="support" element={<Support />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>
