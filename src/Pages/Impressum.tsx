@@ -1,4 +1,4 @@
-import { Page, InputAreaContainer } from "../Components";
+import { Page, InputAreaContainer, ResultsAreaContainer } from "../Components";
 import { TextContainer } from "./Verein";
 export const Impressum = () => (
   <Page>
@@ -143,5 +143,6 @@ export const Impressum = () => (
         </div>
       </TextContainer>
     </InputAreaContainer>
+    <ResultsAreaContainer></ResultsAreaContainer>
   </Page>
 );
