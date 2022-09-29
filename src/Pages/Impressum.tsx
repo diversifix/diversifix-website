@@ -9,17 +9,7 @@ export const Impressum = () => (
 
           <p>Angaben gemäß § 5 TMG</p>
           <p style={{ fontWeight: "bold" }}>Diversifix e. V.</p>
-          <p>
-            Nazarethkirchstr. 51 A.26.1
-            <br />
-            13347 Berlin
-            <br />
-            Deutschland
-          </p>
-          <p>
-            E-Mail: vorstand@diversifix.org
-            <br />
-          </p>
+          <p>E-Mail: vorstand@diversifix.org</p>
 
           <h3>Vorstand</h3>
           <p>
