@@ -1,1 +1,51 @@
-/* css styles */
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#snippet {
+    min-height: 80vh;
+}
+
+nav .navbar-container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(27, 156, 216)
+}
+
+li.nav-item:hover {
+    background: rgb(227, 246, 255);
+}
+
+.navbar-brand img {
+    width: 350px;
+    height: 50px;
+    max-height: 50px;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.navbar, .navbar > .container-fluid, #navbarCollapse {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    align-items: stretch;
+    -webkit-align-items: stretch;
+}
+
+.nav-link {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.75rem;
+    text-align: center;
+}
+.nav-link::first-line {
+    font-size: 1rem;
+}
+
+.nav-item.compact {
+    padding-top: 0.65rem;
+}

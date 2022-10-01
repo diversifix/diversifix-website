@@ -2,15 +2,33 @@ project:
   type: website
 
 website:
-  title: "diversifix-website"
+  title: "Diversifix"
+  author: "Diversifix e. V."
+  open-graph: true
+  twitter-card: true
+  site-url: https://diversifix.org
+  repo-url: https://github.com/diversifix/diversifix-website
+  search: false
   navbar:
-    left:
+    background: white
+    logo: img/logo.png
+    logo-alt: Hullidulli
+    title: false
+    pinned: true
+    collapse-below: sm
+    right:
       - href: index.qmd
-        text: Home
-      - about.qmd
+        text: Datenbank <br> Zum Mitmachen
+      - href: about.qmd
+        text: Diversifix e. V. <br> Über den Verein
+      - icon: github
+        href: https://github.com/diversifix
+        aria-label: Code auf Github
 
 format:
   html:
     theme: cosmo
+    max-width: 1024px
+    backgroundcolor: rgb(232, 232, 232)
+    linkcolor: rgb(27, 156, 216)
     css: styles.css
-    toc: true
