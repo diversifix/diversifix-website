@@ -12,21 +12,27 @@ website:
   navbar:
     background: white
     logo: img/logo.png
-    logo-alt: Hullidulli
+    logo-alt: Diversifix
     title: false
     pinned: true
-    collapse-below: sm
+    collapse-below: md
     right:
-      - href: index.qmd
+      - href: datenbank.md
         text: Datenbank <br> Zum Mitmachen
-      - href: about.qmd
+      - href: about.md
         text: Diversifix e. V. <br> Über den Verein
       - icon: github
         href: https://github.com/diversifix
         aria-label: Code auf Github
+  page-footer:
+    background: rgb(232, 232, 232)
+    center:
+      - href: impressum.md
+        text: Impressum, Datenschutz & Lizenzen
 
 format:
   html:
+    lang: de
     theme: cosmo
     max-width: 1024px
     backgroundcolor: rgb(232, 232, 232)

@@ -1,0 +1,6 @@
+- exclusive: Abbrecher
+  inclusive: Abbrecher*in
+  source: Diversifix
+- exclusive: Abbrecherquote
+  inclusive: Abbruchquote
+  source: GeschicktGendern.de
