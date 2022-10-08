@@ -1,6 +1,19 @@
+#quarto-content {
+    min-height: 0px!important;
+    grid-template-rows: none;
+}
+
+#quarto-content > main {
+    padding-top: 0px;
+}
+
 main {
     background-color: inherit;
     box-shadow: none;
     margin: 0;
     padding: 0;
+}
+
+.nav-footer-center {
+margin-top: 0;
 }

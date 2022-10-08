@@ -1,7 +1,7 @@
 ---
 format:
   html:
-    css: styles_index.css 
+    css: styles_index.css
 ---
 
 ::: {.column-screen #snippet}

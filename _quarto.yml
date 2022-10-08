@@ -2,8 +2,10 @@ project:
   type: website
 
 website:
-  title: "Diversifix"
-  author: "Diversifix e. V."
+  title: "Diversifix - Einfach diversitätssensibel."
+  description: "DIVERSIFIX unterstützt den Einsatz diversitätssensibler Sprache und sensibilisiert für das Thema Diversität."
+  favicon: img/favicon-32.png
+  image: img/diversifix-social-preview.png
   open-graph: true
   twitter-card: true
   site-url: https://diversifix.org
@@ -14,13 +16,13 @@ website:
     logo: img/logo.png
     logo-alt: Diversifix
     title: false
-    pinned: true
+    pinned: false
     collapse-below: md
     right:
-      - href: datenbank.md
-        text: Datenbank <br> Zum Mitmachen
       - href: about.md
         text: Diversifix e. V. <br> Über den Verein
+      - href: datenbank.md
+        text: Datenbank <br> Zum Mitmachen
       - icon: github
         href: https://github.com/diversifix
         aria-label: Code auf Github
@@ -33,7 +35,6 @@ website:
 format:
   html:
     lang: de
-    theme: cosmo
     max-width: 1024px
     backgroundcolor: rgb(232, 232, 232)
     linkcolor: rgb(27, 156, 216)
