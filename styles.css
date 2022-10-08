@@ -10,7 +10,7 @@ body {
 
 main {
     background-color: white;
-    padding: 40px 32px 24px;
+    padding: 40px 32px 24px !important;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 9px 18px;
 }
 
