@@ -43,6 +43,7 @@ nav .navbar-container {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
 .navbar .nav-link, .navbar-expand-md .navbar-nav .nav-link {
