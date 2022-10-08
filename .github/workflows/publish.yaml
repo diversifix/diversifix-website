@@ -1,0 +1,32 @@
+on:
+  workflow_dispatch:
+  push:
+    branches: main
+
+name: Quarto Publish
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out frontend repository
+        run: git clone https://github.com/diversifix/diversifix.git diversifix-app --depth 1
+
+      - name: Build frontend
+        env:
+          REACT_APP_API_BASE_URL: https://api.diversifix.org/v2
+        run: |
+          echo "SKIP_PREFLIGHT_CHECK=true" > diversifix-app/react-ui/.env
+          cd diversifix-app/react-ui && yarn install && REACT_APP_VCS_REVISION=$(git rev-parse HEAD) yarn build && cp -R build ../../public/diversifix-app
+
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render and Publish
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: netlify
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
