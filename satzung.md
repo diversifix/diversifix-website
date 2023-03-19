@@ -1,5 +1,6 @@
 ---
 title: Vereinssatzung Diversifix
+toc: true
 ---
 
 ## § 1 Name und Sitz des Vereins, Geschäftsjahr

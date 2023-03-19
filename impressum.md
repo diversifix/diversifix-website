@@ -80,6 +80,13 @@ Daten nur soweit es wirklich nötig und erforderlich ist.
 -   Individuelle Einstellungen werden im lokalen Speicher im Browser
     (LocalStorage) gespeichert, diese Informationen werden lediglich für
     die Applikation benutzt.
+-   Als experimentelle Funktion können Texte mithilfe des kommerziellen
+    Sprachmodells GPT-4 der Firma OpenAI überprüft werden.
+    Bei der Verwendung von GPT-4 werden die Texte zur Verarbeitung an OpenAI weitergegeben.
+    Es gelten die [Datenschutzbestimmungen von OpenAI](https://openai.com/policies).
+    Diese beinhalten eine 30-tägige Speicherung der Texte durch OpenAI zur Untersuchung von missbräuchlicher Nutzung.
+    Um die Auslastung von GPT-4 zu reduzieren, werden Texte und Korrekturvorschläge außerdem auf unserem Server gecached, d. h. kurzfristig zwischengespeichert.
+    Die Nutzung von GPT-4 ist eine optionale Funktion in unserer Anwendung und standardmäßig deaktiviert.
 
 # Lizenzen
 

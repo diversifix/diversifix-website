@@ -1,4 +1,4 @@
 - source: project
   netlify:
     - id: 3b27d714-1040-4e3e-83e5-2b4181a0c7de
-      url: 'https://diversifix-quarto.netlify.app'
+      url: 'https://diversifix.org'

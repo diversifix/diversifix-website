@@ -71,31 +71,31 @@ animieren.
     gerne an [feedback@diversifix.org](mailto:feedback@diversifix.org).
     - Du kennst ein besseres Synonym? Hilf uns unsere Datenbank zu
     füttern! Hier kannst du uns deinen Vorschlag da lassen.
-- Dich überzeugt unsere Idee? Gerne kannst du uns auch
-regelmäßiger unterstützen.
+    - Dich überzeugt unsere Idee? Gerne kannst du uns auch
+    regelmäßiger unterstützen.
 
-    - __Testing__ in deiner Organisation oder deinem Team: wir
-    suchen motivierte Menschen, die unser Tool im Alltag
-    erproben und uns Feedback geben. Nur so wissen wir, wo der
-    Schuh wirklich drückt, und können langfristig mehr Menschen
-    sinnvoll bei einem diversitätssensiblen Sprachgebrauch
-    unterstützen.
+        - __Testing__ in deiner Organisation oder deinem Team: wir
+        suchen motivierte Menschen, die unser Tool im Alltag
+        erproben und uns Feedback geben. Nur so wissen wir, wo der
+        Schuh wirklich drückt, und können langfristig mehr Menschen
+        sinnvoll bei einem diversitätssensiblen Sprachgebrauch
+        unterstützen.
 
-    - __Input von Expert:innen__ suchen wir, damit unsere
-    Wortdatenbank aktuell und immer diveristätssensibel ist. Wir
-    freuen uns über Menschen, die sich mit Sprachwissenschaften,
-    Linguistik, oder Diversität an sich auskennen. Gerne laden
-    wir dich in unser Expertennetzwerk ein!
+        - __Input von Expert:innen__ suchen wir, damit unsere
+        Wortdatenbank aktuell und immer diveristätssensibel ist. Wir
+        freuen uns über Menschen, die sich mit Sprachwissenschaften,
+        Linguistik, oder Diversität an sich auskennen. Gerne laden
+        wir dich in unser Expertennetzwerk ein!
 
-    - __Austausch__ suchen wir mit allen, die sich für das
-    Thema diversitätssensible Sprache interessieren und das
-    vorantreiben wollen. Deshalb pflegen wir ein Netzwerk mit
-    Diversitätsenthusiasten aus verschiedenen Organisationen des
-    öffentlichen Sektors. Hier können wir uns über
-    Herausforderungen austauschen, Best Practices teilen und
-    gemeinsam unsere Verwaltung diversitätssensibler gestalten!
-    Interessiert? Melde dich gerne per Email bei unserem
-    Netzwerk an [community@diversifix.org](mailto:community@diversifix.org).
+        - __Austausch__ suchen wir mit allen, die sich für das
+        Thema diversitätssensible Sprache interessieren und das
+        vorantreiben wollen. Deshalb pflegen wir ein Netzwerk mit
+        Diversitätsenthusiasten aus verschiedenen Organisationen des
+        öffentlichen Sektors. Hier können wir uns über
+        Herausforderungen austauschen, Best Practices teilen und
+        gemeinsam unsere Verwaltung diversitätssensibler gestalten!
+        Interessiert? Melde dich gerne per Email bei unserem
+        Netzwerk an [community@diversifix.org](mailto:community@diversifix.org).
 
 ## Wo kommen wir her?
 

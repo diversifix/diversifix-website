@@ -23,7 +23,7 @@ Sprache wandelt sich - deshalb brauchen wir dich! Gemeinsam können wir unser To
 Hier kannst du ganz einfach passende Wörter vorschlagen.
 
 
-<form name="diversity-database" netlify>
+<form name="diversity-database" method="post" action="/datenbank-vorschlag.html" netlify>
 
 __Diversitätsdimension \*__
 
@@ -44,14 +44,14 @@ __Kritisches Wort \*__
 Ein oder mehrere ähnliche Wörter, die besser nicht benutzt werden sollten.\
 Bei mehreren Wörtern mit Komma getrennt eingeben.
 
-<input type="text" name="exclusive" size="80" required/><br/><br/>
+<input type="text" name="exclusive" required/><br/><br/>
 
 __Inklusive Ersatzwörter__
 
 Ein oder mehrere Alternativen.\
 Bei mehreren Alternativen mit Komma getrennt eingeben.
 
-<input type="text" name="exclusive" size="80"/><br/><br/>
+<input type="text" name="inclusive"/><br/><br/>
 
 __Erklärung__
 
@@ -60,11 +60,10 @@ Warum ist das kritische Wort nicht so gut?\
 Warum sind die inklusiven Wörter besser?\
 Was gibt es zu beachten?
 
-<textarea name="explanation" cols="80"></textarea><br/>
+<textarea name="explanation"></textarea><br/>
 
 <label for="agree">
-<input type="checkbox" name="agree" id="agree" required>
-&nbsp;Diversifix e. V. darf meinen Vorschlag speichern, anpassen, benutzen, und veröffentlichen.
+<input type="checkbox" name="agree" id="agree" required> <span>Diversifix e. V. darf meinen Vorschlag speichern, anpassen, benutzen, und veröffentlichen.</span>
 </label>
 
 <input type="submit" value="Vorschlag absenden"/>
