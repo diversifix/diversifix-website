@@ -17,25 +17,27 @@ toc: true
 
 (2) Der Zweck des Vereins ist
 
-- a) die Förderung der Gleichberechtigung von Frauen und Männern,
+- a) die Förderung der Gleichberechtigung von Frauen und Männern, sowie
 
-- b) die Förderung der Hilfe für Menschen, die auf Grund ihrer geschlechtlichen Identität oder ihrer geschlechtlichen Orientierung diskriminiert werden, sowie
-
-- c) die Förderung von Kultur.
+- b) die Förderung der Hilfe für Menschen, die auf Grund ihrer geschlechtlichen Identität oder ihrer geschlechtlichen Orientierung diskriminiert werden.
 
 (3) Der Zweck des Vereins wird insbesondere verwirklicht durch die Unterstützung der Verwendung von diversitätssensibler Sprache in der Gesellschaft. Damit wird die sprachliche Repräsentation von Frauen, nonbinären Personen und Menschen mit Behinderung, sowie rassistisch diskriminierter Menschen gefördert. Insbesondere wird dies durch den Verein erzielt durch
 
 - (a) die Steuerung der Weiterentwicklung von digitalen Tools, welche die Verwendung diversitätssensibler Sprache vereinfachen und für das Thema sensibilisieren,
 
-- (b) die Bereitstellung des Tools und seines Quellcodes für die Öffentlichkeit,
+- (b) die kostenlose Bereitstellung der Tools und ihrer Quellcodes für die Öffentlichkeit,
 
-- (c) die Konzeption und Durchführung verschiedener Formate für die gesellschaftliche Sensibilisierung zum Thema “Diversitätssensible Sprache”.
+- (c) die Konzeption und Durchführung folgender Formate für die gesellschaftliche Sensibilisierung zum Thema “Diversitätssensible Sprache”:
+
+  - i. Etablierung und Pflege eines Netzwerks von Vertretern der öffentlichen Verwaltung, Wissenschafts- und Kultureinrichtungen, die sich mit dem Thema diversitätssensibler Sprache näher befassen möchten. Das Netzwerk dient dem Austausch zu Herausforderungen zu dem Thema in den Organisationen und der Vorstellung und Entwicklungen von Best-practices;
+
+  - ii. Durchführung von Netzwerkveranstaltungen zum Austausch zu Diversität & Sprache und mit dem Ziel der Aufklärung über diversitätssensible Sprache.
 
 ## §3 Selbstlosigkeit
 
 (1) Der Verein ist selbstlos tätig; er verfolgt nicht in erster Linie eigenwirtschaftliche Zwecke.
 
-(2) Mittel des Vereins dürfen nur für die satzungsmäßigen Zwecke verwendet werden. Die Ausübung von Vereinsämtern erfolgt ehrenamtlich.
+(2) Mittel des Vereins dürfen nur für die satzungsmäßigen Zwecke verwendet werden. Die Ausübung von Vereinsämtern erfolgt ehrenamtlich. Die Mitglieder erhalten keine Zuwendungen aus Mitteln des Vereins.
 
 (3) Die Mitglieder dürfen bei ihrem Ausscheiden oder bei Auflösung oder Aufhebung des Vereins keine Anteile des Vereinsvermögens erhalten.
 
@@ -151,8 +153,8 @@ e) die Auflösung des Vereins.
 
 (1) Im Falle der Auflösung des Vereins sind die Vorstandsmitglieder gemeinsam vertretungsberechtigte Liquidatoren, falls die Mitgliederversammlung keine anderen Personen beruft.
 
-(2) Bei Auflösung oder Aufhebung des Vereins oder bei Wegfall steuerbegünstigter Zwecke fällt das Vermögen des Vereins an eine von der Mitgliederversammlung bestimmte juristische Person des öffentlichen Rechts oder eine andere steuerbegünstigte Körperschaft.
+(2) Bei Auflösung des Vereins oder bei Wegfall steuerbegünstigter Zwecke fällt sein Vermögen an die Charta der Vielfalt e. V., die es unmittelbar und ausschließlich für gemeinnützige, mildtätige, oder kirchliche Zwecke zu verwenden hat.
 
 (3) Die vorstehenden Bestimmungen gelten entsprechend, wenn dem Verein die Rechtsfähigkeit entzogen wurde.
 
-Berlin, 1. Dezember 2021
+Berlin, 24. März 2022
