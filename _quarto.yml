@@ -25,7 +25,7 @@ website:
         text: Diversifix e. V. <br> Über den Verein
       - href: datenbank.md
         text: Datenbank <br> Zum Mitmachen
-      - href: https://github.com/diversifix
+      - href: https://github.com/diversifix/diversifix
         text: Code <br> Auf Github
   page-footer:
     background: rgb(232, 232, 232)
